@@ -38,4 +38,4 @@ def leiaFloat(msg):
 def descontoCalc(v, d):
     # Faz o cálculo do desconto e do novo preço. E no fim o retorna.
     calc = v * (d / 100)
-    return float(f'{v - calc:2f}')
+    return float(f'{v - calc:.2f}')
